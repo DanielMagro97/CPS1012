@@ -1,0 +1,10 @@
+1) Make sure you have ncurses installed. This can be accomplished by running the following command:
+sudo apt-get install libncurses5-dev libncursesw5-dev
+2) Make sure you are in the project directory
+3) Compile the program by running the command: gcc -o OrangeWave main.c -lncurses
+4) To run the program, you should first open a Terminal in the project directory, ideally you should maximise the window before running the program, and run the command: ./OrangeWave
+5) To run the presblock daemon, open another terminal inside the same directory, and run the command: ./presblock PID
+Instead of PID you should write the process ID of the program, this is shown for 5 seconds when Orange Wave is launched, alternatively, you can get this by running:
+ps -uax | grep OrangeWave	in the terminal. You can make sure that presblock is compiled by running the command: gcc -o presblock presblock.c
+7) To exit the program, simply type 'exit' and press enter in the prompt panel. To exit presblock, press CTRL+C inside its terminal window.
+

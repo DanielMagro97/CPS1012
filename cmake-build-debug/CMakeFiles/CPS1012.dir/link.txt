@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/CPS1012.dir/main.c.o  -o CPS1012 -lncurses 

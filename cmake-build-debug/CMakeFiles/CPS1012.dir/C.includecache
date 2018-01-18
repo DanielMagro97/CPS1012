@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danmag/CLionProjects/CPS1012/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+signal.h
+-
+sys/types.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+ncurses.h
+-
+sys/ioctl.h
+-
+pthread.h
+-
+time.h
+-
+sys/time.h
+-
+

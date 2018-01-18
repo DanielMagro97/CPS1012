@@ -1,0 +1,3 @@
+/home/danmag/CLionProjects/CPS1012/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/danmag/CLionProjects/CPS1012/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/danmag/CLionProjects/CPS1012/cmake-build-debug/CMakeFiles/CPS1012.dir
